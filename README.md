@@ -9,8 +9,8 @@ https://collagecrafting.com/en
 
 ## Clone
 
-깃허브 페이지: https://jimmimmim.github.io/web-clone/
-코드펜 링크 (10/31): https://codepen.io/jimmimmim/pen/dyRaRab
+- 깃허브 페이지: https://jimmimmim.github.io/web-clone/
+- 코드펜 링크 (10/31): https://codepen.io/jimmimmim/pen/dyRaRab
 
 2021-10-31 (1h)
 - navigation inner menu
