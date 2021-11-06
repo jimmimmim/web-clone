@@ -17,3 +17,5 @@ https://collagecrafting.com/en
 - hover effect
 <img src="https://user-images.githubusercontent.com/72171903/139540083-58a0c071-c2b0-4d90-a2c8-f0a97a1c1c15.png" width=200px height=auto>
 
+2021-11-07 
+- css underline animation: https://css-irl.info/animating-underlines/
