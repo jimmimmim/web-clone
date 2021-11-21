@@ -6,6 +6,10 @@ html {
     line-height: 1.4;
 }
 
+body {
+    background-color: #272f41;
+}
+
 ul {
     list-style: none;
 }
@@ -15,9 +19,44 @@ a {
     text-decoration: none;
 }
 
+.c-nav_menu_background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.c-nav_menu_background_inner {
+    left: 300px;
+    overflow: hidden;
+}
+
+.c-nav_menu_background_inner::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-image: url(menu.jpg);
+    background-position: 65% 50%;
+    background-size: cover;
+}
+
 .c-nav_menu_inner {
     display: inline;
     word-break: normal;
+}
+
+.c-nav_menu_inner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
 }
 
 .c-nav_menu_list_wrapper {
@@ -85,4 +124,8 @@ a {
     top: 20%;
     left: calc(100% + 5px);
     opacity: 0;
+}
+
+.c-about {
+    color: #fb9fa4;
 }
